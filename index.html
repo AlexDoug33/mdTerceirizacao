@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MD Terceirização</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>	
+	<header>
+		<nav class="navbar navbar-default">
+		    <div class="container">
+			    <div class="navbar-header">
+				    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">HOME</a>
+				</div>
+			    <div class="collapse navbar-collapse" id="collapse-navbar">
+					<ul class="nav navbar-nav">
+						<li><a href="empresa.html">Empresa</a></li>
+						<li><a href="cadastro.html">Cadastro Cliente</a></li>
+						<li><a href="#nossos-produtos">Serviços</a></li>
+						<li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+						<li><a href="entre.html">Login</a></li>
+						<li><a href="orçamento.html">Faça seu Orçamento</a></li>
+						
+					</ul>
+					<form>
+				  
+				  <input type="search" id="busca" placeholder="Boletim de Notícias" style="">
+				  <button type="submit">Pesquisar</button>
+				</form>
+				</div>
+			</div>
+	</nav>
+	
+	</div>
+	</header>
+	<section class="container" id="nossos-produtos">
+		<h2>Nossos Produtos/Serviços</h2>
+
+		<div class="row">  
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<figure class="thumbnail">
+					<img src="img/portaria2jpg.jpg" alt="Imagem do Produto 1">
+					<figcaption class="caption">
+						<h3>Serviços de Portaria</h3>
+						<p> Os profissionais de portaria e vigia são treinados e atualizados periodicamente, para a perfeita execução das tarefas pertinentes a função, com embasamento em normas e procedimentos desenvolvidos exclusivamente para a empresa. Contam com o acompanhamento de profissionais das áreas de psicologia, assistência social e segurança do trabalho.</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<figure class="thumbnail">
+					<img src="img/limpeza3jpg.jpg" alt="Imagem do Produto 2">
+					<figcaption class="caption">
+						<h3>Serviços de Limpeza</h3>
+						<p>A empresa coloca à sua disposição profissionais selecionados de forma bastante criteriosa, onde são submetidos a avaliações técnicas e treinamentos, execução de serviços e orientados sobre as mais diversas características e tecnologias utilizadas no mercado. </p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<figure class="thumbnail">
+					<img src="img/jardinagem2jpg.jpg" alt="Imagem do Produto 3">
+					<figcaption class="caption">
+						<h3>Serviços de Jardinagem</h3>
+						<p>Os profissionais em jardinagem são preparados para o perfeito convívio com as plantas, utilizando técnicas, conhecimentos e equipamentos necessários à satisfação do perfil de cada cliente.</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<figure class="thumbnail">
+					<img src="img/recepcao2jpg.jpg" alt="Imagem do Produto 4">
+					<figcaption class="caption">
+						<h3>Serviços de Recepção</h3>
+						<p>Os serviços de recepção são prestados de forma a satisfazer totalmente as exigências do cliente. Para isso adotamos um programa de constante especialização para os nossos funcionários, assim oferecemos um diferencial no atendimento e modo de atuação.</p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+
+	</section>
+	<section class="container" id="contato">
+		<h2>Contato</h2>
+		<p>Fale Conosco</p>
+		<form>
+			<div class="form-group">
+				<label for="contato-name">Nome:</label>
+				<input id="contato-name" class="form-control" type="text" placeholder="Seu Nome" >
+			</div>
+			<div class="form-group">
+				<label for="contato-email">E-mail</label>
+				<div class="input-group">
+					<div class="input-group-addon">@</div>
+					<input type="email" class="form-control" id="contato-email" placeholder="Seu E-mail">				
+				</div>
+			</div>
+		     <div class="form-group">
+				<label for="contato-telefone">Telefone</label>
+				<div class="input-group">
+					
+					<input type="telefone" class="form-control" id="contato-telefone" placeholder="Seu Telefone">				
+				</div>
+				<select class="contato-select form-control" >
+				<option >Limpeza e Conservação</option>
+				<option disabled selected>Segurança Eletrônica</option>
+				<option>Segurança</option>
+				<option>Jardinagem</option>
+				<option>Tratamento de piso</option>
+				<option>Recepção</option>
+				<option>Portaria</option>
+				<option>Pós -Obra</option>
+			</select>
+
+			<button type="submit" class="btn btn-primary">Enviar</button>
+		</form>
+
+	</section>
+	<footer>
+		<address>
+			<strong>MD Terceirização</strong><br>
+			Endereço: Rua Dom Orlando Silva,299, Várzea Grande-MT<br>
+		</address>
+		<address>
+			telefone: (65)2137-1969<br>
+			Email:mdterceirização@gmail.com
+		</address>
+	</footer>
+	<script src="jquery.js"></script>
+	<script src = "bootstrap/js/bootstrap.min.js"></script>
+	<script src="navbar-animation-fix.js"></script>
+</div>
+</body>
+</html>
